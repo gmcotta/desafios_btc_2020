@@ -1,0 +1,41 @@
+Original: Esse carro é espetacular, o visual é lindíssimo, com belo acabamento e kit multimídia compatível com Android Auto e Apple Car. Entretanto, o consumo deixa a desejar, faço de 7 a 9 kilômetros litro na cidade com gasolina.
+
+Broadband: esse carro espetacular visual indício com bela cabalmente que mídia compatível com a droga de alto e a colocar entretanto o consumo deixa a desejar faço de sete a nove quilômetros livre na cidade com gasolina 
+
+Narrowband: espetacular visual é lindíssimo com belas amente kit multimídia compatível com android auto o consumo destes já passa de sete novos quilômetros isso na cidade 
+
+{
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "content-type": "application/json",
+    "session-name": "FKKLOWTAPNFRXWCA-pt-BR_BroadbandModel",
+    "content-disposition": "inline; filename=\"result.json\"",
+    "x-xss-protection": "1",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "DENY",
+    "content-security-policy": "default-src 'none'",
+    "strict-transport-security": "max-age=31536000; includeSubDomains;",
+    "x-global-transaction-id": "a98d6a2bc0a187820ffdc7fd107b7234",
+    "x-dp-watson-tran-id": "a98d6a2bc0a187820ffdc7fd107b7234",
+    "content-length": "433",
+    "x-edgeconnect-midmile-rtt": "12",
+    "x-edgeconnect-origin-mex-latency": "5580",
+    "date": "Mon, 14 Sep 2020 13:27:05 GMT",
+    "connection": "close"
+  },
+  "result": {
+    "result_index": 0,
+    "results": [
+      {
+        "final": true,
+        "alternatives": [
+          {
+            "transcript": "esse carro espetacular visual indício com bela cabalmente que mídia compatível com a droga de alto e a colocar entretanto o consumo deixa a desejar faço de sete a nove quilômetros livre na cidade com gasolina ",
+            "confidence": 0.86
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+applications:
+  - name: maratona-desafio8
+    path: .
+    command: npm run dev
+    instances: 1
+    routes:
+      - route: maratona-desafio8.mybluemix.net
+    random-route: true
+    memory: 128M
+    env:
+      STT_APIKEY: 'V1d61_XXVCsL6F81Gw38uOfGR3uUhed6-y8JoDssa9J4'
+      STT_SERVICE_URL: 'https://api.eu-de.speech-to-text.watson.cloud.ibm.com/instances/028aa1be-deac-418e-964a-02fbaa7fa3bc'
+      NLU_APIKEY: 'm6ws-_acDzB-AfOPPYJ5KP-lSdBGzDn3lEg5EyPXHdRy'
+      NLU_SERVICE_URL: 'https://api.eu-de.natural-language-understanding.watson.cloud.ibm.com/instances/8657984b-ce29-47d7-b00b-d18f0c5352ad'
+      WKS_MODEL_ID: '5f722c22-d907-4754-9927-bf84fe52e2d5'
